@@ -388,6 +388,8 @@ hr {
   .tile.tile-32       { background: #d00; }
   .tile.tile-64       { background: #e00; }
   .tile.tile-128      { background: #f00; }
+  .tile.tile-256      { background: #f01; }
+  .tile.tile-512      { background: #f02; }
   .tile.tile-3        { background: #060; }
   .tile.tile-6        { background: #460; }
   .tile.tile-12       { background: #860; }
@@ -691,6 +693,8 @@ hr {
 .tileoverlay.tileoverlay-128881 { background-position: -100% -6800%; }
 .tileoverlay.tileoverlay-367 { background-position: 0% -6900%; }
 .tileoverlay.tileoverlay-134689 { background-position: -100% -6900%; }
+.tileoverlay.tileoverlay-373 { background-position: 0% -7000%; }
+.tileoverlay.tileoverlay-139129 { background-position: -100% -7000%; }
 
 .tile.minitile, .tile.minitile .tilenumber, .tile.minitile .tileoverlay {
   width: 43px; 
@@ -708,7 +712,7 @@ hr {
 .tile.minitile .tilenumber.tile-small-4 {
   font-size: 17.6px !important; }
 .tile.minitile .tilenumber.tile-small-5 {
-  font-size: 21px !important; }
+  font-size: 13.5px !important; }
 .tile.minitile .tilenumber.tile-small-6 {
   font-size: 10px !important; }
 
